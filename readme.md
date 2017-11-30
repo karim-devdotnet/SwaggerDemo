@@ -4,9 +4,9 @@ http://wmpratt.com/swagger-and-asp-net-web-api-part-1/
 
 ### Adding Swagger to Web Api Project
 To add Swagger to an ASP.NET Web Api, we will install an open source project called Swashbuckle via nuget.
-
+```console
 PM> Install-Package Swashbuckle -version 5.2.1
-
+```
 ### Configuring Swagger
 Open SwaggerConfig.cs and check the following code line:
  
